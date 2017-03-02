@@ -1,0 +1,178 @@
+body{
+	background-color:red;
+}
+
+ul {
+	
+	display: flex;
+	justify-content:space-between;
+}
+
+li {
+	list-style: none;
+	margin-top: 10px;
+margin-bottom: 10px
+
+}
+
+.drop-down-1{
+
+display: none;
+}
+
+
+
+.portfolio:hover .drop-down-1 {
+
+display: block;
+margin-left: -40px;
+;
+}
+
+
+
+.drop-down-2{
+
+display: none;
+}
+
+
+
+.contact:hover .drop-down-2 {
+
+display: block;
+margin-left: -40px;
+;
+}
+.section_one{
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+	margin-bottom: 8px;
+	margin-top: 150px;
+}
+
+.section_one_left{
+	width: 20%;
+	background-color: black;
+	height: 300px;
+	margin-right: 5px;
+}
+.section_one_left_middle{
+	width: 20%;
+	background-color: blue;
+	height: 300px;
+	margin-right: 5px;
+}
+.section_one_middle{
+	width: 20%;
+	background-color: black;
+	height: 300px;
+	margin-right: 5px;
+}
+.section_one_right_middle{
+	width: 20%;
+	background-color:blue;
+	height: 300px;
+	margin-right: 5px;
+
+}
+.section_one_right{
+	width: 20%;
+	background-color: black;
+	height: 300px;
+	margin-right: 5px;
+}
+
+.section_two{
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+	margin-bottom: 8px;
+	margin-top: 5px;
+
+}
+
+.section_two_left{
+	width: 20%;
+	background-color: blue;
+	height: 300px;
+	margin-right: 5px;
+}
+.section_two_left_middle{
+	width: 20%;
+	background-color: black;
+	height: 300px;
+	margin-right: 5px;
+}
+.section_two_middle{
+	width: 20%;
+	background-color:blue ;
+	height: 300px;
+	margin-right: 5px;
+}
+.section_two_right_middle{
+	width: 20%;
+	background-color: black;
+	height: 300px;
+	margin-right: 5px;
+}
+.section_two_right{
+	width: 20%;
+	background-color: white;
+	height: 300px;
+	margin-right: 5px;
+	text-align: center;
+	font-size: 2rem;
+	position: relative;
+}
+
+.click { 
+position: absolute;
+top: 50%;
+transform: translateY(-50%);}
+
+.section_three{
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+	margin-bottom: 8px;
+	margin-top: 5px;
+}
+
+.section_three_left{
+	width: 20%;
+	background-color: black;
+	height: 300px;
+	margin-right: 5px;
+}
+.section_three_left_middle{
+	width: 20%;
+	background-color: blue;
+	height: 300px;
+	margin-right: 5px;
+}
+.section_three_middle{
+	width: 20%;
+	background-color: black;
+	height: 300px;
+	margin-right: 5px;
+}
+.section_three_right_middle{
+	width: 20%;
+	background-color: blue;
+	height: 300px;
+	margin-right: 5px;
+}
+.section_three_right{
+	width: 20%;
+	background-color: black;
+	height: 300px;
+	margin-right: 5px;
+}
+
+.main-container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
