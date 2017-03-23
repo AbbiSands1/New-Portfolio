@@ -1,5 +1,5 @@
 body{
-	background-color:red;
+	background: url('../img/background.jpg');
 }
 
 ul {
@@ -183,7 +183,8 @@ transform: translateY(-50%);}
 	
 }
 .section_four_right_middle
-{width: 15%;
+{content:url('../img/profile.jpg');
+	width: 15%;
 	background-color: blue;
 	height: 300px;
 	margin-left: 550px;
@@ -198,6 +199,35 @@ transform: translateY(-50%);}
 	height: 300px;
 	margin-right: 5px;
 	margin-top:45px;
+	text-align: center;
+	font-size: 2rem;
 	
 }
 
+.section_five{
+	width: 100%;
+	display: flex;
+	
+}
+.section_five_right_middle
+{	content:url('../img/profile.jpg');
+
+	width: 15%;
+	background-color: blue;
+	height: 300px;
+	margin-left: 550px;
+	margin-right: 5px;
+	margin-top:45px;
+}
+	
+
+.section_five_right
+{width: 30%;
+	background-color: black;
+	height: 300px;
+	margin-right: 5px;
+	margin-top:45px;
+	text-align: center;
+	font-size: 2rem;
+}
+	
