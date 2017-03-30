@@ -1,5 +1,5 @@
 body{
-	background-color:red;
+	background: url('../img/background.jpg');
 }
 
 ul {
@@ -7,6 +7,7 @@ ul {
 	display: flex;
 	justify-content:space-between;
 }
+
 
 li {
 	list-style: none;
@@ -176,3 +177,72 @@ transform: translateY(-50%);}
 	margin-left: auto;
 	margin-right: auto;
 }
+.section_four{
+	width: 100%;
+	display: flex;
+	
+}
+.section_four_right_middle
+{content:url('../img/profile.jpg');
+	width: 15%;
+	background-color: blue;
+	height: 300px;
+	margin-left: 550px;
+	margin-right: 5px;
+	margin-top:45px;
+}
+	
+
+.section_four_right
+{width: 30%;
+	background-color: black;
+	height: 300px;
+	margin-right: 5px;
+	margin-top:45px;
+	text-align: center;
+	font-size: 2rem;
+	
+}
+
+.section_five{
+	width: 100%;
+	display: flex;
+	
+}
+.section_five_right_middle
+{	content:url('../img/profile.jpg');
+
+	width: 15%;
+	background-color: blue;
+	height: 300px;
+	margin-left: 550px;
+	margin-right: 5px;
+	margin-top:45px;
+}
+	
+
+.section_five_right
+{width: 30%;
+	background-color: black;
+	height: 300px;
+	margin-right: 5px;
+	margin-top:45px;
+	text-align: center;
+	font-size: 2rem;
+}
+	
+
+.container {
+	width: 100%;
+	position: relative;
+}
+.cycle-slideshow {
+    width: 45%;
+    min-width: 200px;
+    max-width: 100%;
+    margin: 10px auto;
+    padding: 0;
+    position: relative;
+   
+}
+
